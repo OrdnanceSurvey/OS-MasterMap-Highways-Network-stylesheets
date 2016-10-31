@@ -1,7 +1,6 @@
 # OS MasterMap Highways Network
 
 These are QML files for OS MasterMap Highways Network in GML format for use in QGIS.
-We currently only have stylesheets for the linear road network, the layer RoadLink, with PathLink likely to follow.
 
 *They have been designed to work with the data as it is supplied.*
 

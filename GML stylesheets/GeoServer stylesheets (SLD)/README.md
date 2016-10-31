@@ -1,6 +1,6 @@
 # OS MasterMap Highways Network
 
-These are QML files for OS MasterMap Highways Network in GZ/GML format for use in GeoServer.
+These are SLD files for OS MasterMap Highways Network in GZ/GML format for use in GeoServer.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
