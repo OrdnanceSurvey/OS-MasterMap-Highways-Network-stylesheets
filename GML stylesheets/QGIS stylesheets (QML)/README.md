@@ -18,7 +18,7 @@ Note that we have provided 2 styles to choose between for RoadLink: Select the R
 
 We recommend the following layer order and visibility:
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/OS_MasterMap_Highways_Network_layer_order.png )
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/blob/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/highways_layer_order.png )
 
 We recommend viewing the Highways Network data between **1:250** and **1:20,000** for maximum legibility
 
