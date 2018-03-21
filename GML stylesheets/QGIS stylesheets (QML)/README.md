@@ -8,9 +8,11 @@ These are QML files for OS MasterMap Highways Network in GML format for use in Q
 
 **1.**  Fork or [download](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/archive/master.zip) the contents of this repository
 
-**2.**  Load your Highways Network GML data into QGIS
+**2.**  Copy the folder ‘ordnance_survey_highways’ into your QGIS SVG directory (a typical Windows file path is C:\Program Files\QGIS xxxx\apps\qgis\svg, where xxxx represents whatever version of QGIS you are running)
 
-**3.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the relevantly named QML file > click 'Open' > click 'OK'
+**3.**  Load your Highways Network GML data into QGIS
+
+**4.**  Double click on a layer to access the 'Layer Properties' window > click on 'Load Style...' > navigate to the directory containing the QML files (those ending .qml) > select the relevantly named QML file > click 'Open' > click 'OK'
 
 Repeat step 3 for all layers.
 
@@ -24,7 +26,7 @@ We recommend viewing the Highways Network data between **1:250** and **1:20,000*
 
 Your data should now look similar to this: 
 
-  ![Screenshot](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/raw/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/OS_MasterMap_Highways_Network_screenshot.png "Screenshot of OS MasterMap Highways Network RoadLink in the RoadLink-2 style")
+  ![Screenshot](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/blob/master/GML%20stylesheets/QGIS%20stylesheets%20(QML)/images/highways_screenshot.png "Screenshot of OS MasterMap Highways Network RoadLink in the RoadLink-2 style")
 
 ## Additional information
 
