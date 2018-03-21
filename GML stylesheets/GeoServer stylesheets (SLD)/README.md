@@ -47,7 +47,7 @@ Note: Choose RoadLink-1.sld file to style by road classification or select the R
 
 The name of this Layer Group is the ‘layer’ your web map service (WMS) will need to call.
 
-The scale denominators have been set to allow viewing between **1:250** and **1:25 000**, although this will vary slightly by resolution.
+The scale denominators have been set to allow viewing between **1:250** and **1:20 000**, although this will vary slightly by resolution.
 
 Your data should now look similar to this: 
 
