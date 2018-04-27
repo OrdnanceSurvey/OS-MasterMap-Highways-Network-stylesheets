@@ -50,6 +50,7 @@
       <category render="true" symbol="1" value="Maintenance Responsibility Is To Another Highway Authority" label="Maintenance Responsibility Is To Another Highway Authority"/>
       <category render="true" symbol="2" value="Not Maintained At Public Expense" label="Not Maintained At Public Expense"/>
       <category render="true" symbol="3" value="Prospectively Maintainable At Public Expense" label="Prospectively Maintainable At Public Expense"/>
+      <category render="true" symbol="4" value="Street Outside Scope Of EToN" label="Street Outside Scope Of EToN"/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
@@ -129,6 +130,28 @@
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="outline_color" v="242,133,34,255"/>
+          <prop k="outline_style" v="solid"/>
+          <prop k="outline_width" v="0.25"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="1.875"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="4">
+        <layer pass="0" class="SimpleMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="joinstyle" v="bevel"/>
+          <prop k="name" v="circle"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="150,150,150,255"/>
           <prop k="outline_style" v="solid"/>
           <prop k="outline_width" v="0.25"/>
           <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
@@ -386,7 +409,7 @@
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
   <attributeactions default="-1"/>
-  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="" sortOrder="0">
+  <attributetableconfig actionWidgetStyle="dropDown" sortExpression="&quot;maintenanceResponsibility&quot;" sortOrder="0">
     <columns>
       <column width="-1" hidden="0" type="field" name="OBJECTID"/>
       <column width="-1" hidden="0" type="field" name="ID"/>

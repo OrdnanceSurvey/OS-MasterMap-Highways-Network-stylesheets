@@ -36,16 +36,28 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         <Rule>
           <Name>Path</Name>
           <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
+<ogc:Or>
+                          <ogc:PropertyIsEqualTo>
                 <ogc:PropertyName>formofway</ogc:PropertyName>
                 <ogc:Literal>Path</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fictitious</ogc:PropertyName>
-                <ogc:Literal>1</ogc:Literal>
+<ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
+                <ogc:Literal>Path With Steps</ogc:Literal>
               </ogc:PropertyIsEqualTo>
-            </ogc:And>
+<ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
+                <ogc:Literal>Path With Ford</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
+                <ogc:Literal>Path With Level Crossing</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+<ogc:PropertyIsEqualTo>
+                <ogc:PropertyName>formofway</ogc:PropertyName>
+                <ogc:Literal>Canal Path</ogc:Literal>
+              </ogc:PropertyIsEqualTo>
+</ogc:Or>
           </ogc:Filter>
           <MinScaleDenominator>250</MinScaleDenominator>
           <MaxScaleDenominator>13000</MaxScaleDenominator>
@@ -57,30 +69,7 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
             </Stroke>
           </LineSymbolizer>
         </Rule>
-        <Rule>
-          <Name>Path</Name>
-          <ogc:Filter>
-            <ogc:And>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>formofway</ogc:PropertyName>
-                <ogc:Literal>Path</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-              <ogc:PropertyIsEqualTo>
-                <ogc:PropertyName>fictitious</ogc:PropertyName>
-                <ogc:Literal>0</ogc:Literal>
-              </ogc:PropertyIsEqualTo>
-            </ogc:And>
-          </ogc:Filter>
-          <MinScaleDenominator>250</MinScaleDenominator>
-          <MaxScaleDenominator>13000</MaxScaleDenominator>
-          <LineSymbolizer>
-            <Stroke>
-              <CssParameter name="stroke">#052D18</CssParameter>
-              <CssParameter name="stroke-width">1</CssParameter>
-            </Stroke>
-          </LineSymbolizer>
-        </Rule>
-      </FeatureTypeStyle>
+              </FeatureTypeStyle>
 
       <!--  Step  -->
       

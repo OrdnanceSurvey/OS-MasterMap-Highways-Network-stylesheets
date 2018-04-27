@@ -72,7 +72,7 @@
       <category render="true" symbol="44" value="Unsuitable for articulated vehicles" label="Unsuitable for articulated vehicles"/>
       <category render="true" symbol="45" value="No tracked vehicles" label="No tracked vehicles"/>
       <category render="true" symbol="46" value="No vehicles carrying dangerous goods" label="No vehicles carrying dangerous goods"/>
-      <category render="true" symbol="47" value="No buses, No heavy goods vehicels" label="No buses, No heavy goods vehicels"/>
+      <category render="true" symbol="47" value="No buses, No heavy goods vehicles" label="No buses, No heavy goods vehicles"/>
       <category render="true" symbol="48" value="No goods vehicles over 16.5T" label="No goods vehicles over 16.5T"/>
       <category render="true" symbol="49" value="Buses and tramcars only" label="Buses and tramcars only"/>
       <category render="true" symbol="50" value="No goods vehicles over 26T" label="No goods vehicles over 26T"/>
@@ -82,6 +82,7 @@
       <category render="true" symbol="54" value="No vehicles carrying explosives or flammable substances" label="No vehicles carrying explosives or flammable substances"/>
       <category render="true" symbol="55" value="No buses, No light goods vehicles, No solo motorcycles" label="No buses, No light goods vehicles, No solo motorcycle"/>
       <category render="true" symbol="56" value="No buses, No goods vehicles over 7.5T" label="No buses, No goods vehicles over 7.5T"/>
+      <category render="true" symbol="57" value="Non-statutory residents and guests only" label="Non-statutory residents and guests only"/>
     </categories>
     <symbols>
       <symbol alpha="1" clip_to_extent="1" type="marker" name="0">
@@ -89,7 +90,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="127,235,210,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus and pedal cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus and pedal cycles only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -109,7 +110,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="118,230,32,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus and taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus and taxi only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -129,7 +130,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="228,42,57,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No buses.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No buses.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -149,7 +150,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="77,151,230,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No cycling.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No cycling.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -169,7 +170,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="131,220,133,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No entry.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No entry.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -189,7 +190,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="240,80,117,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -209,7 +210,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="84,158,200,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -229,7 +230,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="148,229,136,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -249,7 +250,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="86,38,217,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -269,7 +270,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="235,49,149,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -289,7 +290,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="212,92,174,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -309,7 +310,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="227,197,137,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -329,7 +330,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="226,141,135,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Buses only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Buses only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -349,7 +350,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="117,202,84,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -369,7 +370,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="233,213,122,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -389,7 +390,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="89,73,210,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No motor vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No motor vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -409,7 +410,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="128,25,212,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Motor cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Motor cycles only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -429,7 +430,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="224,69,199,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No solo motorcycles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No solo motorcycles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -449,7 +450,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="225,144,97,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No towed caravans.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No towed caravans.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -469,7 +470,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="117,39,227,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Non-statutory no vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Non-statutory no vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -489,7 +490,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="128,225,217,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No wide loads.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No wide loads.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -509,7 +510,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="200,101,200,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Non-statutory no vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Non-statutory no vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -529,7 +530,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="219,133,166,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -549,7 +550,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="204,28,235,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -569,7 +570,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="177,214,73,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Buses only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Buses only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -589,7 +590,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="177,214,73,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Taxi only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -609,7 +610,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="51,83,228,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for coaches.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for coaches.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -629,7 +630,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="27,237,94,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for heavy goods vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for heavy goods vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -649,7 +650,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="97,217,153,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for large vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for large vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -669,7 +670,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="206,63,23,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for long vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for long vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -689,7 +690,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="227,223,84,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for motor vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for motor vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -709,7 +710,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="67,72,209,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for towed caravans.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for towed caravans.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -729,7 +730,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="215,150,81,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for wide vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for wide vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -749,7 +750,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="73,214,85,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for buses.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for buses.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -769,7 +770,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="100,180,202,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus pedal cycle taxi only.svg"/>
           <prop k="offset" v="-3.5,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -787,7 +788,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="255,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Motor cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Motor cycles only.svg"/>
           <prop k="offset" v="3.5,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -807,7 +808,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="140,49,49,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Non-statutory wide loads only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Non-statutory wide loads only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -827,7 +828,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="172,138,217,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Pedal cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Pedal cycles only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -847,7 +848,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="163,103,236,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Pedal cycles and motor cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Pedal cycles and motor cycles only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -867,7 +868,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="151,244,1,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No light goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No light goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -887,7 +888,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="135,227,117,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for articulated vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for articulated vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -907,7 +908,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="10,88,197,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No tracked vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No tracked vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -927,7 +928,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="115,157,7,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No vehicles carrying dangerous goods.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No vehicles carrying dangerous goods.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -947,7 +948,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="79,68,155,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -967,7 +968,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="34,72,241,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -987,7 +988,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="134,59,115,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Buses and tram cars only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Buses and tram cars only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1007,7 +1008,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="113,212,174,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Buses only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Buses only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1027,7 +1028,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="117,181,145,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No heavy goods vehicle.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1047,7 +1048,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="178,69,205,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Buses only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Buses only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1067,7 +1068,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="121,109,214,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Tramcars only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Tramcars only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1087,7 +1088,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="216,220,102,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Unsuitable for through traffic.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Unsuitable for through traffic.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1107,7 +1108,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="93,89,168,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No vehicles carrying dangerous goods.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No vehicles carrying dangerous goods.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1127,7 +1128,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="128,154,231,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
           <prop k="offset" v="-3.5,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1145,7 +1146,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="255,0,0,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No solo motorcycles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No solo motorcycles.svg"/>
           <prop k="offset" v="3.5,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1165,7 +1166,27 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="157,105,50,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No buses, no heavy goods vehicle.svg"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_width" v="0"/>
+          <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="scale_method" v="diameter"/>
+          <prop k="size" v="8"/>
+          <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="size_unit" v="MM"/>
+          <prop k="vertical_anchor_point" v="1"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" clip_to_extent="1" type="marker" name="57">
+        <layer pass="0" class="SvgMarker" locked="0">
+          <prop k="angle" v="0"/>
+          <prop k="color" v="165,94,153,255"/>
+          <prop k="horizontal_anchor_point" v="1"/>
+          <prop k="name" v="ordnance_survey_highways/No entry.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1185,7 +1206,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="47,105,220,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Bus and taxi only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Bus and taxi only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1205,7 +1226,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="180,85,220,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/Motor cycles only.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/Motor cycles only.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1225,7 +1246,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="211,235,24,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No abnormal loads.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No abnormal loads.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1245,7 +1266,7 @@
           <prop k="angle" v="0"/>
           <prop k="color" v="95,238,119,255"/>
           <prop k="horizontal_anchor_point" v="1"/>
-          <prop k="name" v="ordnance_survey_highways/No articulated vehicles.svg"/>
+          <prop k="name" v="./ordnance_survey_highways/No articulated vehicles.svg"/>
           <prop k="offset" v="0,0"/>
           <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
           <prop k="offset_unit" v="MM"/>
@@ -1285,6 +1306,8 @@
         </layer>
       </symbol>
     </source-symbol>
+    <colorramp type="randomcolors" name="[source]"/>
+    <invertedcolorramp value="0"/>
     <rotation/>
     <sizescale scalemethod="diameter"/>
   </renderer-v2>

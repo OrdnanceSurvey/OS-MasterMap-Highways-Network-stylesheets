@@ -54,6 +54,30 @@ xsi:schemaLocation="http://www.opengis.net/sld http://schemas.opengis.net/sld/1.
         </Rule>
       </FeatureTypeStyle>
 
+<!--  Unknown  -->
+      
+      <FeatureTypeStyle>   
+        <Rule>
+          <Name>Unknown</Name>
+          <ogc:Filter>
+            <ogc:PropertyIsEqualTo>
+              <ogc:PropertyName>roadclassification</ogc:PropertyName>
+              <ogc:Literal>Unclassified</ogc:Literal>
+            </ogc:PropertyIsEqualTo>
+          </ogc:Filter>
+          <MinScaleDenominator>250</MinScaleDenominator>
+          <MaxScaleDenominator>25000</MaxScaleDenominator>
+          <LineSymbolizer>
+            <Stroke>
+              <CssParameter name="stroke">#E6CDAC</CssParameter>
+              <CssParameter name="stroke-width">2.46</CssParameter>
+              <CssParameter name="stroke-linecap">round</CssParameter>
+            </Stroke>
+          </LineSymbolizer>
+        </Rule>
+      </FeatureTypeStyle>
+
+
       <!--  Classified  Unnumbered -->
       
       <FeatureTypeStyle>   
