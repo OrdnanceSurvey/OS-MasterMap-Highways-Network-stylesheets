@@ -18,7 +18,7 @@ These are SLD files for OS MasterMap Highways Network in GZ/GML format for use i
 
 Note: Choose RoadLink-1.sld file to style by road classification or select the RoadLink-2.sld file to style by a combination of route hierarchy and form of way.
 
-**6.**  We have given you a style for 'out-of-the-box' vector features from the Road and Path themese, including two options for styling RoadLink. Use the RoadLink-1.sld file to style by road classification or select the RoadLink-2.sld file to style by a combination of route hierarchy and form of way.
+**6.**  We have given you a style for 'out-of-the-box' vector features from the Road and Path themes, including two options for styling RoadLink. Use the RoadLink-1.sld file to style by road classification or select the RoadLink-2.sld file to style by a combination of route hierarchy and form of way.
 
 **7.**  To create Highways Network in GeoServer you will need to create a Layer Group. If using the GUI then navigate to Layer Groups > Add new layer group > Add Layer and choose each layer in turn to create the following layer order:
 
