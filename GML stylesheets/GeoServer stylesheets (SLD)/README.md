@@ -1,6 +1,6 @@
 # OS MasterMap Highways Network
 
-These are SLD files for OS MasterMap Highways Network in GZ/GML format for use in GeoServer.
+These are **SLD** files for OS MasterMap Highways Network in **GZ/GML** format for use in **GeoServer**.
 
 *They have been designed to work with the data loaded into a database, for example PostGIS, with field names in full and in lowercase.*
 
@@ -53,17 +53,15 @@ Your data should now look similar to this:
 
   ![Screenshot](https://github.com/OrdnanceSurvey/OS-MasterMap-Highways-Network-stylesheets/blob/master/GML%20stylesheets/GeoServer%20stylesheets%20(SLD)/images/highways_screenshot.png "Screenshot of OS MasterMap Highways Network")
 
-##Compatibility notes
+## Compatibility notes
 
 Although SLD is an open OGC standard, these SLDs do contain some extended code used by GeoServer, namely the ‘vendor option’ tags. Also, as aforementioned, the field names referenced in the SLDs are in full and in lowercase.
 
 ## Additional information
 
-[More information about how to download, apply and customise our stylesheets including a Stylesheet User Guide](http://www.ordnancesurvey.co.uk/resources/carto-design/cartographic-stylesheets.html)
+[For more information about data styling and visualisation, take a look at our GeoDataViz toolkit](https://github.com/OrdnanceSurvey/GeoDataViz-Toolkit)
 
 [More information about OS MasterMap Highways Network](https://www.ordnancesurvey.co.uk/business-and-government/products/os-mastermap-highways-network.html)
-
-[More information about cartographic design at Ordnance Survey](https://www.ordnancesurvey.co.uk/resources/carto-design/)
 
 ## Licence
 
